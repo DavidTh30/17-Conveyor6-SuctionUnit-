@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 292
+  Height = 435
+  Top = 75
+  Width = 594
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Tutorials 17: Apply basic custom flow'
+  ClientHeight = 435
+  ClientWidth = 594
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.4.2.0'
+  object Button1: TButton
+    Left = 224
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = 'Start Loop'
+    OnClick = Button1Click
+    TabOrder = 0
+    TabStop = False
+  end
+  object Button2: TButton
+    Left = 296
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = '50 Frame'
+    OnClick = Button2Click
+    TabOrder = 1
+    TabStop = False
+  end
+  object Button3: TButton
+    Left = 368
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = '35 Frame'
+    OnClick = Button3Click
+    TabOrder = 2
+    TabStop = False
+  end
+  object Button4: TButton
+    Left = 512
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = 'Stop'
+    OnClick = Button4Click
+    TabOrder = 3
+    TabStop = False
+  end
+  object PaintBox2: TPaintBox
+    Left = 8
+    Height = 344
+    Top = 72
+    Width = 576
+  end
+  object Button5: TButton
+    Left = 440
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = '10 Frame'
+    OnClick = Button5Click
+    TabOrder = 4
+    TabStop = False
+  end
+  object Label3: TLabel
+    Left = 296
+    Height = 16
+    Top = 0
+    Width = 238
+    Caption = 'Tutorials 17: Apply basic custom particle flow'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
